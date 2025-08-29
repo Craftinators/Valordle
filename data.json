@@ -1,0 +1,200 @@
+{
+  "agents": [
+    {
+      "agent_name": "Brimstone",
+
+      "real_name": "Liam Byrne",
+      "origin": "United States",
+      "agent_number": 1,
+
+      "codenames": ["Sarge"],
+      "release_patch": "Beta",
+      "voice_actor": "Steve Blum",
+
+      "immediately_available": true,
+
+      "role": "Controller",
+      "abilities": [
+        {
+          "name": "Sky Smoke",
+          "type": "Signature",
+          "functions": ["Smoke"],
+          "rechargeable": false,
+          "credits": 100,
+          "maximum_charges": 3,
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Stim Beacon",
+          "type": "Basic",
+          "functions": ["Empowerment"],
+          "credits": 200,
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Incendiary",
+          "type": "Basic",
+          "functions": ["Molotov"],
+          "credits": 250,
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Orbital Strike",
+          "type": "Ultimate",
+          "functions": ["Deterrent"],
+          "points": 8,
+          "deployment_type": "Placement"
+        }
+      ]
+    },
+    {
+      "agent_name": "Viper",
+
+      "real_name": "Sabine Callas",
+      "origin": "United States",
+      "agent_number": 2,
+
+      "codenames": ["Pandemic"],
+      "release_patch": "Beta",
+      "voice_actor": "Ashly Burch",
+
+      "immediately_available": false,
+
+      "role": "Controller",
+      "abilities": [
+        {
+          "name": "Toxic Screen",
+          "type": "Signature",
+          "functions": ["Cripple","Wall"],
+          "rechargeable": false,
+          "credits": "Free",
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Snake Bite",
+          "type": "Basic",
+          "functions": ["Cripple, Molotov"],
+          "credits": 300,
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Poison Cloud",
+          "type": "Basic",
+          "functions": ["Cripple, Smoke"],
+          "credits": 200,
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Viper's Pit",
+          "type": "Ultimate",
+          "functions": ["Cripple, Vision Blocker"],
+          "points": 9,
+          "deployment_type": "Placement"
+        }
+      ]
+    },
+    {
+      "agent_name": "Omen",
+
+      "real_name": "Unknown",
+      "origin": "Unknown",
+      "agent_number": 3,
+
+      "codenames": ["Wraith"],
+      "release_patch": "Beta",
+      "voice_actor": "Jason Marnocha",
+
+      "immediately_available": false,
+
+      "role": "Controller",
+      "abilities": [
+        {
+          "name": "Dark Cover",
+          "type": "Signature",
+          "functions": ["Smoke"],
+          "rechargeable": true,
+          "credits": 150,
+          "maximum_charges": 2,
+          "deployment_type": "Missile"
+        },
+        {
+          "name": "Shrouded Step",
+          "type": "Basic",
+          "functions": ["Teleport"],
+          "credits": 100,
+          "maximum_charges": 2,
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Paranoia",
+          "type": "Basic",
+          "functions": ["Nearsight"],
+          "credits": 250,
+          "maximum_charges": 1,
+          "deployment_type": "Missile"
+        },
+        {
+          "name": "From the Shadows",
+          "type": "Ultimate",
+          "functions": ["Teleport"],
+          "points": 7,
+          "deployment_type": "Placement"
+        }
+      ]
+    },
+    {
+      "agent_name": "Killjoy",
+
+      "real_name": "Klara Böhringer",
+      "origin": "Germany",
+      "agent_number": 4,
+
+      "codenames": ["Killjoy"],
+      "release_patch": "1.05",
+      "voice_actor": "Eva Feiler",
+
+      "immediately_available": false,
+
+      "role": "Sentinel",
+      "abilities": [
+        {
+          "name": "Turret",
+          "type": "Signature",
+          "functions": ["Autonomous Deployable"],
+          "rechargeable": true,
+          "credits": "Free",
+          "maximum_charges": "1",
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Alarmbot",
+          "type": "Basic",
+          "functions": ["Autonomous Deployable, Cripple"],
+          "credits": 200,
+          "maximum_charges": "1",
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Nanoswarm",
+          "type": "Basic",
+          "functions": ["Molotov"],
+          "credits": 200,
+          "maximum_charges": "2",
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Lockdown",
+          "type": "Ultimate",
+          "functions": ["Detain"],
+          "points": 9,
+          "deployment_type": "Placement"
+        }
+      ]
+    }
+  ]
+}
