@@ -9,7 +9,6 @@
 
       "codenames": ["Sarge"],
       "release_patch": "Beta",
-      "voice_actor": "Steve Blum",
 
       "immediately_available": true,
 
@@ -58,7 +57,6 @@
 
       "codenames": ["Pandemic"],
       "release_patch": "Beta",
-      "voice_actor": "Ashly Burch",
 
       "immediately_available": false,
 
@@ -107,7 +105,6 @@
 
       "codenames": ["Wraith"],
       "release_patch": "Beta",
-      "voice_actor": "Jason Marnocha",
 
       "immediately_available": false,
 
@@ -156,7 +153,6 @@
 
       "codenames": ["Killjoy"],
       "release_patch": "1.05",
-      "voice_actor": "Eva Feiler",
 
       "immediately_available": false,
 
@@ -193,6 +189,148 @@
           "functions": ["Detain"],
           "points": 9,
           "deployment_type": "Placement"
+        }
+      ]
+    },
+    {
+      "agent_name": "Cypher",
+
+      "real_name": "Amir El Amari",
+      "origin": "Morocco",
+      "agent_number": 5,
+
+      "codenames": ["Gumshoe"],
+      "release_patch": "Beta",
+
+      "immediately_available": false,
+
+      "role": "Sentinel",
+      "abilities": [
+        {
+          "name": "Spycam",
+          "type": "Signature",
+          "functions": ["Controlled Deployable"],
+          "rechargeable": true,
+          "credits": "Free",
+          "maximum_charges": "1",
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Trapwire",
+          "type": "Basic",
+          "functions": ["Autonomous Deployable, Concuss, Tether"],
+          "credits": 200,
+          "maximum_charges": "2",
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Cyber Cage",
+          "type": "Basic",
+          "functions": ["Vision Blocker"],
+          "credits": 100,
+          "maximum_charges": "2",
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Neural Theft",
+          "type": "Ultimate",
+          "functions": ["Intel"],
+          "points": 7,
+          "deployment_type": "Targeted"
+        }
+      ]
+    },
+    {
+      "agent_name": "Sova",
+
+      "real_name": "Alexander Novikov",
+      "origin": "Russia",
+      "agent_number": 6,
+
+      "codenames": ["Hunter"],
+      "release_patch": "Beta",
+
+      "role": "Initiator",
+      "abilities": [
+        {
+          "name": "Recon Bolt",
+          "type": "Signature",
+          "functions": ["Intel"],
+          "rechargeable": true,
+          "credits": "Free",
+          "maximum_charges": 1,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Shock Bolt",
+          "type": "Basic",
+          "functions": ["Deterrent"],
+          "credits": 150,
+          "maximum_charges": 2,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Owl Drone",
+          "type": "Basic",
+          "functions": ["Controlled Deployable"],
+          "credits": 400,
+          "maximum_charges": 1,
+          "deployment_type": "Possession"
+        },
+        {
+          "name": "Hunter's Fury",
+          "type": "Ultimate",
+          "functions": ["Weapon Equip"],
+          "points": 8,
+          "deployment_type": "Beam"
+        }
+      ]
+    },
+    {
+      "agent_name": "Sage",
+
+      "real_name": "Wei Ling Ying",
+      "origin": "China",
+      "agent_number": 7,
+
+      "codenames": ["Thorne"],
+      "release_patch": "Beta",
+
+      "immediately_available": true,
+
+      "role": "Sentinel",
+      "abilities": [
+        {
+          "name": "Healing Orb",
+          "type": "Signature",
+          "functions": ["Heal"],
+          "rechargeable": true,
+          "credits": "Free",
+          "maximum_charges": 1,
+          "deployment_type": "Targeted"
+        },
+        {
+          "name": "Barrier Orb",
+          "type": "Basic",
+          "functions": ["Barrier", "Wall"],
+          "credits": 400,
+          "maximum_charges": 1,
+          "deployment_type": "Placement"
+        },
+        {
+          "name": "Slow Orb",
+          "type": "Basic",
+          "functions": ["Slow"],
+          "credits": 200,
+          "maximum_charges": 2,
+          "deployment_type": "Projectile"
+        },
+        {
+          "name": "Resurrection",
+          "type": "Ultimate",
+          "functions": ["Revive"],
+          "points": 7,
+          "deployment_type": "Targeted"
         }
       ]
     }
